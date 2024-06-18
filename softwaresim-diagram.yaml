@@ -1,0 +1,552 @@
+mouseWheel:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse to square
+      id: collapseToSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to named square
+      id: collapseToNamedSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to circle
+      id: collapseToCircle
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 930
+  viewPortHeight: 606
+  horizontalOffset: -27
+  verticalOffset: -8
+addInfo:
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+height: 606
+connectors:
+  - id: Straight ConnectorUr3eh
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 347
+      y: 269
+    targetPoint:
+      x: 347
+      y: 317
+    sourceID: KubeflowE6XqC
+    targetID: Vertex AIh0Zok
+    addInfo:
+      viewConnector: 0
+    zIndex: 2
+  - id: Straight Connectorkge0b
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 164
+      y: 268.48
+    targetPoint:
+      x: 197
+      y: 259.56
+    sourceID: Jupytern3n6C
+    targetID: KubeflowE6XqC
+    addInfo:
+      viewConnector: 0
+    zIndex: 4
+  - id: Dashed Straight Bidirectional ConnectorWvtTV
+    sourceDecorator:
+      shape: OpenArrow
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 497
+      y: 180.27
+    targetPoint:
+      x: 541
+      y: 168.91
+    sourceID: KubeflowE6XqC
+    targetID: BigQuerybSoft
+    addInfo:
+      viewConnector: 0
+    zIndex: 7
+  - id: Dashed Straight Bidirectional ConnectorRiJtr
+    sourceDecorator:
+      shape: OpenArrow
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 497
+      y: 248.51
+    targetPoint:
+      x: 541
+      y: 257.16
+    sourceID: KubeflowE6XqC
+    targetID: Scikit-learnI2c07
+    addInfo:
+      viewConnector: 0
+    zIndex: 8
+nodes:
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #353A86;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1659084940/sds_logos/Kubeflow_Black_87_pknfq4.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1659084939/sds_logos/Kubeflow_uzs5wk.png);"></div><div
+        class="c-text"><div class="c-title">Kubeflow</div><div
+        class="c-short-description">Deploying, monitoring, and maintaining
+        machine learning workflows on Kubernetes</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Kubeflow</div></div></div></div></div>'
+    id: KubeflowE6XqC
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Kubeflow
+        shortDescription: Deploying, monitoring, and maintaining machine learning
+          workflows on Kubernetes
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Kubeflow
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Kubeflow
+      editableName: Kubeflow
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Training Pipeline
+          type: Processor
+          portsIn:
+            job: model
+          portsOut:
+            job: model
+          serviceTime:
+            exp:
+              lambda: AverageTrainingDuration
+        - name: IDE
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: commit
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenCommits
+        - name: Deployment Tool
+          type: Processor
+          portsIn:
+            job: deployable
+          portsOut:
+            job: deployed
+          serviceTime:
+            exp:
+              lambda: AverageDeploymentDuration
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Training Pipeline
+          AverageTrainingDuration: 1
+        - type: Generator
+          status: Idle
+          name: IDE
+          AverageTimeBetweenCommits: 1
+        - type: Processor
+          status: Idle
+          name: Deployment Tool
+          AverageDeploymentDuration: 1
+      name: Kubeflow
+      category: 9
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1659084939/sds_logos/Kubeflow_uzs5wk.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1659084939/sds_logos/Kubeflow__0484848_v0ybbn.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1659084940/sds_logos/Kubeflow_Black_87_pknfq4.png
+      color: "#353A86"
+      controlText: Kubeflow
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 347
+    offsetY: 219
+    zIndex: 0
+    inEdges:
+      - Straight Connectorkge0b
+    outEdges:
+      - Straight ConnectorUr3eh
+      - Dashed Straight Bidirectional ConnectorWvtTV
+      - Dashed Straight Bidirectional ConnectorRiJtr
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_Black_87_vxjlos.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_lkhlnv.png);"></div><div
+        class="c-text"><div class="c-title">Vertex AI Pipelines</div><div
+        class="c-short-description">Deploying, building, and managing machine
+        learning models</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Vertex AIh0Zok
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Vertex AI
+        shortDescription: Deploying, building, and managing machine learning models
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Vertex AI
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Vertex AI
+      editableName: Vertex AI Pipelines
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Vertex AI
+      category: 4
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_lkhlnv.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai__044448_bktfch.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_Black_87_vxjlos.png
+      color: "#3871e0"
+      controlText: Vertex AI
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 347
+    offsetY: 367
+    zIndex: 1
+    inEdges:
+      - Straight ConnectorUr3eh
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #BA5512; border-radius:
+        50%"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Jupyter_Black_87_uahk2k.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Jupyter_lm2xh2.png);
+        border-radius: 50%"></div></div></div>'
+    id: Jupytern3n6C
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Jupyter
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Jupyter
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Jupyter
+      editableName: Jupyter
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: IDE
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: request
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenRequests
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: IDE
+          AverageTimeBetweenRequests: 1
+      name: Jupyter
+      category: 9
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/Jupyter_lm2xh2.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/Jupyter__044448_fyi1ig.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/Jupyter_Black_87_uahk2k.png
+      color: "#BA5512"
+      controlText: Jupyter
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: false
+      collapsedToCircle: true
+    width: 100
+    height: 100
+    offsetX: 114
+    offsetY: 282
+    zIndex: 3
+    outEdges:
+      - Straight Connectorkge0b
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #247BA6; border-radius:
+        50%"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1687110056/sds_logos/Scikit-learn_Black_87_m28wn8.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1687110055/sds_logos/Scikit-learn_atjwwt.png);
+        border-radius: 50%"></div></div></div>'
+    id: Scikit-learnI2c07
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Scikit-learn
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Scikit-learn
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Scikit-learn
+      editableName: Scikit-learn
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Automated Task
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageTaskDuration
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Automated Task
+          AverageTaskDuration: 1
+      name: Scikit-learn
+      category: 7
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687110055/sds_logos/Scikit-learn_atjwwt.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687110056/sds_logos/Scikit-learn__044448_hl0ktl.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687110056/sds_logos/Scikit-learn_Black_87_m28wn8.png
+      controlText: Scikit-learn
+      color: "#247BA6"
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: false
+      collapsedToCircle: true
+    width: 100
+    height: 100
+    offsetX: 591
+    offsetY: 267
+    zIndex: 5
+    inEdges:
+      - Dashed Straight Bidirectional ConnectorRiJtr
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0; border-radius:
+        50%"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/bigquery_Black_87_wnczcr.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/bigquery_qbcoev.png);
+        border-radius: 50%"></div></div></div>'
+    id: BigQuerybSoft
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: BigQuery
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: BigQuery
+      status: N/A
+      size: sm
+      nodeType: html
+      title: BigQuery
+      editableName: BigQuery
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: BigQuery
+      category: 4
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/bigquery_qbcoev.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/bigquery__044448_tx0mzn.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/bigquery_Black_87_wnczcr.png
+      color: "#3871e0"
+      controlText: BigQuery
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: false
+      collapsedToCircle: true
+    width: 100
+    height: 100
+    offsetX: 591
+    offsetY: 156
+    zIndex: 6
+    inEdges:
+      - Dashed Straight Bidirectional ConnectorWvtTV
+selectedItems:
+  width: 0
+  height: 0
